@@ -6,13 +6,13 @@ build-backend = "poetry.core.masonry.api"
 profile = "black"
 
 [tool.poetry]
-name = "templatise"
+name = "hypothesis_requests"
 version = "0.3.0"
-description = "You can use template.py to create a new GitHub repository."
-authors = ["Alex Brandt <alunduil@gmail.com>"]
-license = "unlicense"
+description = "You can use hypothesis-requests to create a new GitHub repository."
+authors = ["alunduil <alunduil@gmail.com>"]
+license = "MPL-2.0"
 readme = "README.md"
-repository = "https://github.com/alunduil/template.py"
+repository = "https://github.com/alunduil/hypothesis-requests"
 keywords = ["python", "template", "vscode", "devcontainers"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -51,12 +51,12 @@ pytest-golden = "^0.2.2"
 pytest-xdist = {extras = ["psutil"], version = "^3.1.0"}
 
 [tool.poetry.scripts]
-initialise = 'templatise.initialise:main'
+initialise = 'hypothesis_requests.initialise:main'
 
 [tool.pytest.ini_options]
-addopts = "--doctest-modules --cov=templatise --cov-report=term-missing -n logical"
-testpaths = ["templatise_test"]
+addopts = "--doctest-modules --cov=hypothesis_requests --cov-report=term-missing -n logical"
+testpaths = ["hypothesis_requests_test"]
 enable_assertion_pass_hook = true
 
 [tool.vulture]
-paths = ["templatise", "templatise_test"]
+paths = ["hypothesis_requests", "hypothesis_requests_test"]
