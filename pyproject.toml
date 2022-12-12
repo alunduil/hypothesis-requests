@@ -50,9 +50,6 @@ coveralls = "^3.3.1"
 pytest-golden = "^0.2.2"
 pytest-xdist = {extras = ["psutil"], version = "^3.1.0"}
 
-[tool.poetry.scripts]
-initialise = 'hypothesis_requests.initialise:main'
-
 [tool.pytest.ini_options]
 addopts = "--doctest-modules --cov=hypothesis_requests --cov-report=term-missing -n logical"
 testpaths = ["hypothesis_requests_test"]
