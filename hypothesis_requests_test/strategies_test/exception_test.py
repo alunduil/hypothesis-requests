@@ -16,7 +16,7 @@ class TestExceptions:
         assert isinstance(result, requests.RequestException)  # nosec
 
     @hypothesis.given(data=hypothesis.strategies.data(), exception=sut.exceptions())  # type: ignore[misc]
-    def test_only_toomanyredirects(
+    def test_include(
         self,
         data: hypothesis.strategies.DataObject,
         exception: requests.RequestException,
