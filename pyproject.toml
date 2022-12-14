@@ -7,7 +7,7 @@ profile = "black"
 
 [tool.poetry]
 name = "hypothesis_requests"
-version = "0.3.0"
+version = "0.1.0"
 description = "You can use hypothesis-requests to create a new GitHub repository."
 authors = ["alunduil <alunduil@gmail.com>"]
 license = "MPL-2.0"
@@ -16,10 +16,9 @@ repository = "https://github.com/alunduil/hypothesis-requests"
 keywords = ["python", "template", "vscode", "devcontainers"]
 classifiers = [
     "Development Status :: 3 - Alpha",
-    "Environment :: Console",
     "Framework :: Hypothesis",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.7",
@@ -28,7 +27,6 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Topic :: Software Development",
-    "Topic :: System :: Installation/Setup",
     "Typing :: Typed"
 ]
 
