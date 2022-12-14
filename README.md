@@ -1,4 +1,4 @@
-# template.py
+# hypothesis-requests
 
 [Homepage][repository]
 
@@ -6,35 +6,21 @@ By Alex Brandt <alunduil@gmail.com>
 
 ## Description
 
-You can use template.py to create a new GitHub repository.  The repository will
-have poetry, VS Code devcontainers, and various GitHub actions ready to use.
+You can use hypothesis-requests to generate [request] objects for hypothesis
+based tests.
 
-template.py is related to [Cookiecutter] because both are templates for
-bootstrapping projects.  template.py allows you to have a full development
-environment with only VS Code and it's "Remote Development" plugin.
-[Cookiecutter] expects you to re-use your development environment for multiple
-projects.
 ## Terms of use
 
-You are free to use template.py as a basis for your own projects without any
-conditions.  See the [LICENSE] file for details.
+See the [LICENCE] file for details.
 
 ## Prerequisites
 
-1. VS Code with "Remote Development" installed
+1. Hypothesis property based tests
 
 ## How to use this template
 
-1. Visit [the repository][repository]
-1. Click "Use this template"
-1. Follow the GitHub Docs to [Create a repo][create a repo]
-1. Open VS Code
-1. Open the command prompt (ctrl+shift+p)
-1. Type "clone repository in container" and hit return
-1. Input the GitHub URL of your new repository
-1. In the resulting terminal (ctrl+\`), run: `poetry run initialise`
-1. Resolve the README update issue that is generated
-1. Continue working on your awesome project
+1. Add hypothesis-requests to your project dependencies.
+1. Utilise hypothesis_requests.strategies to generate Requests, Responses, etc.
 
 ## Documentation
 
@@ -50,8 +36,8 @@ conditions.  See the [LICENSE] file for details.
 * Submit [pull requests] for proposed changes
 
 [create a repo]: https://docs.github.com/en/get-started/quickstart/create-a-repo
-[issues]: https://github.com/alunduil/template.py/issues
+[issues]: https://github.com/alunduil/hypothesis-requests/issues
 [LICENSE]: ./LICENSE
-[pull requests]: https://github.com/alunduil/template.py/pulls
-[repository]: https://github.com/alunduil/template.py
+[pull requests]: https://github.com/alunduil/hypothesis-requests/pulls
+[repository]: https://github.com/alunduil/hypothesis-requests
 [Cookiecutter]: https://github.com/cookiecutter/cookiecutter

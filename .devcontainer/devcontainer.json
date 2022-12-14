@@ -1,5 +1,5 @@
 {
-	"name": "template.py",
+	"name": "hypothesis-requests",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
@@ -20,7 +20,7 @@
 				"python.pythonPath": "${workspaceFolder}/.venv/bin/python",
 				"python.linting.pylintPath": "${workspaceFolder}/.venv/bin/pylint",
 				"python.testing.pytestArgs": [
-					"--no-cov", "templatise_test"
+					"--no-cov", "hypothesis_requests_test"
 				],
 				"python.testing.unittestEnabled": false,
 				"python.testing.pytestEnabled": true

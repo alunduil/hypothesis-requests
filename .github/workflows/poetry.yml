@@ -36,6 +36,6 @@ jobs:
       - name: poetry build
         run: |
           poetry build
-          tar -zvtf dist/templatise-*.tar.gz | grep templatise
+          tar -zvtf dist/hypothesis_requests-*.tar.gz | grep hypothesis_requests
       - name: poetry check
         run: poetry check
